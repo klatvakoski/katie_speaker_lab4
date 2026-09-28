@@ -115,6 +115,7 @@ const int notes[][2] = {
 {  0,	0}};
 
 int main(void) {
-	
+    //notes[0][0] = 125 probably? 
+    // iterate through two different things to feed them through or something like that
 	
 }
