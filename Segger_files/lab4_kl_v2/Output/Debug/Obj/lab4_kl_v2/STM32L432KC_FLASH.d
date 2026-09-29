@@ -1,6 +1,6 @@
 Output/Debug/Obj/lab4_kl_v2/STM32L432KC_FLASH.o: \
-  C:\Users\klatvakoski\Documents\SEGGER\ Embedded\ Studio\ Projects\lab4_kl_v2\STM32L432KC_FLASH.c \
-  C:\Users\klatvakoski\Documents\SEGGER\ Embedded\ Studio\ Projects\lab4_kl_v2\STM32L432KC_FLASH.h \
+  C:\Users\klatvakoski\Documents\GitHub\katie_speaker_lab4\Segger_files\lab4_kl_v2\STM32L432KC_FLASH.c \
+  C:\Users\klatvakoski\Documents\GitHub\katie_speaker_lab4\Segger_files\lab4_kl_v2\STM32L432KC_FLASH.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\stdint.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\__SEGGER_RTL.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\__SEGGER_RTL_ConfDefaults.h \
