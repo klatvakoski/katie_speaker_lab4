@@ -1,7 +1,7 @@
-// timer_library.h
-// structure for timers 6 & 7
-#ifndef STM32L4_timer_H
-#define STM32L4_timer_H
+// timer6_config.h
+// structure for timer 6 
+#ifndef STM32L4_timer6_H
+#define STM32L4_timer6_H
 
 #include <stdint.h>
 
@@ -22,9 +22,10 @@ typedef struct {
     __IO uint32_t CNT;     // GPIO Offset 0x14
     __IO uint32_t PSC;    // GPIO Offset 0x18
     __IO uint32_t ARR;    // GPIO Offset 0x1C
-} TIMx_typeDef;
+} TIM6_typeDef;
 
-#define TIMx ((TIMx_typeDef *) TIM6_BASE)
+#define TIM6 ((TIM6_typeDef *) TIM6_BASE)
+
 
 //////// Function prototypes
 void configureTimer6(void); 
