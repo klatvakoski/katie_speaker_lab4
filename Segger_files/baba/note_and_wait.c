@@ -7,11 +7,11 @@
 
 void note_and_wait(int freq, int time) {
   // call timers 
-  volatile uint32_t oscillator = configureTimer6(freq);
   volatile uint32_t time_done = configureTimer7(time); 
   
-  while (time_done == 0) {
+  while (time_done != 1) {
     // drive oscillator directly onto an output pin
+    volatile uint32_t oscillator = configureTimer6(freq);
     if (oscillator == 1) {
       togglePin(5);   // toggle pin 5 to oscillate the music
       }
