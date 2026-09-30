@@ -1,6 +1,6 @@
 Output/Debug/Obj/baba/timer6_freq.o: \
-  C:\Users\klatvakoski\Documents\SEGGER\ Embedded\ Studio\ Projects\baba\timer6_freq.c \
-  C:\Users\klatvakoski\Documents\SEGGER\ Embedded\ Studio\ Projects\baba\timer6_config.h \
+  C:\Users\klatvakoski\Documents\GitHub\katie_speaker_lab4\Segger_files\baba\timer6_freq.c \
+  C:\Users\klatvakoski\Documents\GitHub\katie_speaker_lab4\Segger_files\baba\timer6_config.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\stdint.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\__SEGGER_RTL.h \
   C:\Program\ Files\SEGGER\SEGGER\ Embedded\ Studio\ 8.28a\include\__SEGGER_RTL_ConfDefaults.h \
