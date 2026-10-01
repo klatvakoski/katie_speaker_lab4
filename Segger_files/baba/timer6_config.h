@@ -32,6 +32,7 @@ typedef struct {
 
 
 //////// Function prototypes
-volatile uint32_t configureTimer6(int freq); 
+ void configureTimer6(void); 
+ volatile uint32_t runTim6(int freq);
 
 #endif

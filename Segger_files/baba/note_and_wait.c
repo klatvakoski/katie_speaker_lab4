@@ -4,20 +4,36 @@
 #include "timer6_config.h"
 #include "timer7_config.h"
 #include "gpio_config.h"
+#include "note_and_wait.h"
+
+
 
 void note_and_wait(int freq, int time) {
-  // call timers 
-  volatile uint32_t time_done = configureTimer7(time); 
-  
-  while (time_done != 1) {
+  // configure timers 
+  configureTimer6();
+  configureTimer7(); 
+  volatile uint32_t oscillator = 0; 
+
+  while (!(tim7_done(time))) {
     // drive oscillator directly onto an output pin
-    volatile uint32_t oscillator = configureTimer6(freq);
+    oscillator = runTim6(freq);
     if (oscillator == 1) {
-      togglePin(5);   // toggle pin 5 to oscillate the music
+      togglePin(PIN);   // toggle pin 5 to oscillate the music
       }
     }
+
+
   // once time_done = 1, we stop
   
   
   
   } 
+
+
+  //configtim7();
+
+  //while(!is_tim7_done(time){
+  //  togglePin with tim6
+  //}
+
+  //note++;
