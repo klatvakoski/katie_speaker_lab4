@@ -22,5 +22,4 @@ void note_and_wait(int freq, int time) {
       }
     }
   // once time_done = 1, we stop
-  
   } 
