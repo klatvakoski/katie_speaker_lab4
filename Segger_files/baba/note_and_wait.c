@@ -21,17 +21,6 @@ void note_and_wait(int freq, int time) {
       togglePin(PIN);   // toggle pin 5 to oscillate the music
       }
     }
-
-
   // once time_done = 1, we stop
   
   } 
-
-
-  //configtim7();
-
-  //while(!is_tim7_done(time){
-  //  togglePin with tim6
-  //}
-
-  //note++;
