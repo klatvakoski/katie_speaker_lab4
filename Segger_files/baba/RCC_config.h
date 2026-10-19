@@ -78,7 +78,6 @@ typedef struct
 // Function prototypes
 ///////////////////////////////////////////////////////////////////////////////
 
-//void configurePLL(void);
 void configureClock(void);
 
 #endif

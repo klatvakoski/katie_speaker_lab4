@@ -1,8 +1,10 @@
 #include "RCC_config.h"
 
-void configureClock(){
+void configureClock(void){
     // enable MSI to go to sysCLK
-    RCC->CR &= (1);
-    RCC->APB1ENR1 &= (0b11<<5);   // enable clk7 and clk6 -- possibly not working (neither bit in APB1ENR1 turns on)
+    RCC->CR |= (1);
+    //RCC->CFGR |= 0b00;  // set sysclk to RCC 
+    RCC->APB1ENR1 |= (0b11<<4);   // enable clk7 and clk6 
+    RCC->AHB2ENR |= (1 << 1);    // enable GPIOB pins
   
 }

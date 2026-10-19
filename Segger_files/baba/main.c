@@ -11,10 +11,10 @@ Purpose : Generic application start
 */
 
 #include "stdio.h"
-#include "timer6_config.h"
 #include "RCC_config.h"
 #include "STM32L432KC_FLASH.h"
 #include "note_and_wait.h"
+#include "gpio_config.h"
 
 /*********************************************************************
 *
@@ -137,8 +137,10 @@ const int notes[][2] = {
 {  0,	0}};
 
 int main(void) {
+  // configureFlash();
   configureClock();
-  configureFlash();
+  // enable the output mode onto pin 5: 
+  pinMode(PIN, GPIO_OUTPUT);  
   
   // define pointers to get the values from the array
   int *current_note; 
