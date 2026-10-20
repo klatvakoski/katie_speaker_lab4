@@ -2,7 +2,7 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="152" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="2" filename="main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="131" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="2" filename="main.c" useHWbreakpoint="false"/>
   <Exceptions/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -69,7 +69,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="139" useTextEdit="1" path="main.c" left="0" selected="1" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="118" useTextEdit="1" path="main.c" left="0" selected="1" top="92" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="9" useTextEdit="1" path="RCC_config.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="24" useTextEdit="1" path="note_and_wait.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="5" y="4" useTextEdit="1" path="timer6_freq.c" left="0" top="0" codecName="Default"/>
